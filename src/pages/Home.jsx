@@ -7,12 +7,10 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <main>
-        <section>
-          <h2>Course Home Page</h2>
-        </section>
-      </main>
-    </>
+    <main className="home-page">
+      <section>
+        <h2>Course Home Page</h2>
+      </section>
+    </main>
   );
 }

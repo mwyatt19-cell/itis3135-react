@@ -16,18 +16,15 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          {/* Home page */}
+        <Route element={<Layout />}>
           <Route index element={<Home />} />
-
-          <Route path="introduction" element={<Introduction />} />
           <Route path="contract" element={<Contract />} />
           <Route path="cards" element={<Cards />} />
           <Route path="website-evaluations" element={<WebsiteEvaluation />} />
           <Route path="inventory" element={<Inventory />} />
           <Route path="survey" element={<Survey />} />
-          <Route path="product" element={<Product />} />
         </Route>
+        <Route path="/product" element={<Product />} />
       </Routes>
     </HashRouter>
   </StrictMode>,

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import "./Home.css";
+
+import heroImage from "../assets/hero.png";
 import "./Product.css";
 
 export default function Product() {
@@ -8,10 +9,14 @@ export default function Product() {
       "Adventurous Walrus Summer Camps ~ ITIS 3135 ~ Product Page";
   }, []);
 
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
   return (
-    <main>
+    <main className="product-page">
       <header id="header">
-        <img id="header-img" src="images/logo.jpeg" alt="walrus logo" />
+        <img id="header-img" src={heroImage} alt="walrus logo" />
 
         <nav id="nav-bar">
           <ul>
@@ -34,7 +39,6 @@ export default function Product() {
         </nav>
       </header>
 
-      {/* PAGE 1 */}
       <section id="page1">
         <h1>Adventurous Walrus Summer Camps</h1>
 
@@ -54,9 +58,8 @@ export default function Product() {
         </p>
       </section>
 
-      {/* PAGE 2 */}
       <section id="page2">
-        <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <form id="form" onSubmit={handleSubmit}>
           <h2>Contact Us</h2>
 
           <p>
@@ -78,7 +81,6 @@ export default function Product() {
         </form>
       </section>
 
-      {/* PAGE 3 */}
       <section id="page3">
         <h2>Upcoming Offerings</h2>
 
