@@ -5,7 +5,6 @@ import { HashRouter, Routes, Route } from "react-router";
 import Layout from "./components/Layout.jsx";
 
 import Home from "./pages/Home.jsx";
-import Introduction from "./pages/Introduction.jsx";
 import Contract from "./pages/Contract.jsx";
 import Cards from "./pages/Cards.jsx";
 import WebsiteEvaluation from "./pages/WebsiteEvaluation.jsx";
