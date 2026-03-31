@@ -8,7 +8,7 @@ export default function Inventory() {
   }, []);
 
   return (
-    <main>
+    <>
       <h1>Book Inventory</h1>
 
       <table>
@@ -104,6 +104,6 @@ export default function Inventory() {
           </tr>
         </tbody>
       </table>
-    </main>
+    </>
   );
 }

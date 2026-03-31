@@ -1,6 +1,6 @@
 export default function WebsiteEvaluations() {
   return (
-    <main>
+    <>
       <h2>Website Evaluations</h2>
 
       {/* SITE 1 */}
@@ -67,6 +67,6 @@ export default function WebsiteEvaluations() {
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

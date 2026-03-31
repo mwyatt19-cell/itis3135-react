@@ -7,7 +7,7 @@ export default function Product() {
   }, []);
 
   return (
-    <main>
+    <>
       <header id="header">
         <img id="header-img" src="images/logo.jpeg" alt="walrus logo" />
 
@@ -85,6 +85,6 @@ export default function Product() {
           Break, Spring Break, and Field Trip options.
         </p>
       </section>
-    </main>
+    </>
   );
 }
