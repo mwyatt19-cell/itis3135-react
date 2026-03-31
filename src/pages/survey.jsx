@@ -6,7 +6,7 @@ export default function Survey() {
   }, []);
 
   return (
-    <>
+    <main>
       <h1 id="title">Contact Form</h1>
 
       <p id="description">
@@ -121,6 +121,6 @@ export default function Survey() {
           Submit
         </button>
       </form>
-    </>
+    </main>
   );
 }

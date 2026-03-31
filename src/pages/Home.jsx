@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import "./home.css";
 
 export default function Home() {
   useEffect(() => {
@@ -8,9 +9,11 @@ export default function Home() {
 
   return (
     <>
-      <section>
-        <h2>Course Home Page</h2>
-      </section>
+      <main>
+        <section>
+          <h2>Course Home Page</h2>
+        </section>
+      </main>
     </>
   );
 }
