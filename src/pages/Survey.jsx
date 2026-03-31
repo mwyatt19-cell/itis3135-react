@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import "./Home.css";
 
 export default function Survey() {
   useEffect(() => {

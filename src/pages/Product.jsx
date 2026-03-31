@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import "./Home.css";
+import "./Product.css";
 
 export default function Product() {
   useEffect(() => {

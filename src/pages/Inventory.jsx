@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import "./inventory.css";
+import "./Home.css";
+import "./Inventory.css";
 
 export default function Inventory() {
   useEffect(() => {
