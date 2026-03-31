@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import "./Home.css";
 export default function Survey() {
   useEffect(() => {
     document.title = "Contact Form ~ ITIS 3135 ~ Adventurous Walrus";
