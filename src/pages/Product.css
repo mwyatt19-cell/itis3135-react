@@ -10,7 +10,7 @@ header {
   font-family:
     Instrument Serif,
     Georgia;
-  background-color:darkblue;
+  background-color: darkblue;
 }
 
 #nav-bar {
@@ -26,11 +26,4 @@ nav ul {
 }
 .nav-link:hover {
   color: purple;
-}
-
-@media (prefers-color-scheme: dark) {
-  * {
-    background-color: darkblue;
-    color: whitesmoke;
-  }
 }
