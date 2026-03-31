@@ -2,7 +2,9 @@ img {
   width: 70px;
   height: 70px;
 }
-
+* {
+  color: whitesmoke;
+}
 header {
   display: flex;
   align-items: center;
