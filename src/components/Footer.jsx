@@ -11,7 +11,7 @@ export default function Footer() {
       <a href="alex-wyatt-inventions.com/design.html">Alex Wyatt Inventions</a>
       <br />
       <a
-        href="https://YOUR-VERCEL-LINK-HERE.vercel.app/"
+        href="https://itis3135-react-three-snowy.vercel.app/"
         target="_blank"
         rel="noreferrer"
       >
