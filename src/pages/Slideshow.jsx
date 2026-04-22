@@ -79,8 +79,6 @@ export default function Slideshow() {
                         <button onClick={goPrevious}>Previous</button>
                         <button onClick={goNext}>Next</button>
                         <button onClick={goEnd}>End</button>
-                        <button onClick={playSlideshow}>Play</button>
-                        <button onClick={stopSlideshow}>Stop</button>
                         <button onClick={playSlideshow} disabled={isPlaying}>Play</button>
                         <button onClick={stopSlideshow} disabled={!isPlaying}>Stop</button>
 
