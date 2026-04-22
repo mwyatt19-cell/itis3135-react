@@ -11,6 +11,7 @@ import WebsiteEvaluation from "./pages/WebsiteEvaluation.jsx";
 import Inventory from "./pages/Inventory.jsx";
 import Survey from "./pages/Survey.jsx";
 import Product from "./pages/Product.jsx";
+import Slideshow from "./pages/Slideshow.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,8 +24,9 @@ createRoot(document.getElementById("root")).render(
           <Route path="website-evaluations" element={<WebsiteEvaluation />} />
           <Route path="inventory" element={<Inventory />} />
           <Route path="survey" element={<Survey />} />
+          <Route path="product" element={<Product />} />
+          <Route path="slideshow" element={<Slideshow />} />
         </Route>
-        <Route path="/product" element={<Product />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
