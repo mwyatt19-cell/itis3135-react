@@ -78,7 +78,7 @@ export default function Slideshow() {
                 <><img
                     src={images[currentIndex].url}
                     alt="Dog"
-                    style={{ width: "400px", height: "400px", objectFit: "cover" }} /><p>
+                    style={{ width: "200px", height: "200px", objectFit: "cover" }} /><p>
                         Image {currentIndex + 1} of {images.length}
                     </p>
                     <div>
