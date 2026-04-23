@@ -25,6 +25,9 @@ export default function Slideshow() {
             if (prevIndex > 0) {
                 return prevIndex - 1;
             }
+            if (prevIndex <= 0) {
+                return images.length - 1;
+            }
             return prevIndex;
         });
     }
