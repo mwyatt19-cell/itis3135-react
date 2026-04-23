@@ -5,6 +5,7 @@
     cursor: pointer;
     width: 7vw;
     height: 7vh;
+    font-size: 2em;
 }
 
 .stop {
@@ -13,4 +14,9 @@
 
 .play {
     border: 2px solid green;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
