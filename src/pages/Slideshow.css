@@ -3,12 +3,13 @@
     background-color: antiquewhite;
     border-radius: 4px;
     cursor: pointer;
+    width: 10vw
 }
 
-.btn .stop {
+.stop {
     border: 2px solid red;
 }
 
-.btn .play {
+.play {
     border: 2px solid green;
 }
