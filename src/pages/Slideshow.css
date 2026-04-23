@@ -4,3 +4,11 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.btn stop {
+    border: 2px solid red;
+}
+
+.btn :play {
+    border: 2px solid green;
+}

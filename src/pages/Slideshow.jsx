@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./Slideshow.css";
 
 export default function Slideshow() {
     const [images, setImages] = useState([]);
@@ -85,8 +86,8 @@ export default function Slideshow() {
                         <button className="btn" onClick={goPrevious}>Previous</button>
                         <button className="btn" onClick={goNext}>Next</button>
                         <button className="btn" onClick={goEnd}>End</button>
-                        <button className="btn" onClick={playSlideshow} disabled={isPlaying}>Play</button>
-                        <button className="btn " onClick={stopSlideshow} disabled={!isPlaying}>Stop</button>
+                        <button className="btn play" onClick={playSlideshow} disabled={isPlaying}>Play</button>
+                        <button className="btn stop " onClick={stopSlideshow} disabled={!isPlaying}>Stop</button>
 
                     </div>
                 </>
