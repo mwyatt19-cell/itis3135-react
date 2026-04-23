@@ -5,10 +5,10 @@
     cursor: pointer;
 }
 
-.btn stop {
+.btn .stop {
     border: 2px solid red;
 }
 
-.btn :play {
+.btn .play {
     border: 2px solid green;
 }
