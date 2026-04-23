@@ -16,7 +16,7 @@
     border: 2px solid green;
 }
 
-.img {
+img {
     display: flex;
     justify-content: center;
 }
