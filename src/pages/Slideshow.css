@@ -3,7 +3,8 @@
     background-color: antiquewhite;
     border-radius: 4px;
     cursor: pointer;
-    width: 10vw
+    width: 7vw;
+    height: 7vh;
 }
 
 .stop {
