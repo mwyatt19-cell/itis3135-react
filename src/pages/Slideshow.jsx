@@ -34,6 +34,9 @@ export default function Slideshow() {
             if (prevIndex < images.length - 1) {
                 return prevIndex + 1;
             }
+            else if (prevIndex >= images.length - 1) {
+                return 0;
+            }
             return prevIndex;
         });
     }
@@ -54,7 +57,7 @@ export default function Slideshow() {
                     return prevIndex;
                 }
             });
-        }, 5000);
+        }, 3000);
 
         setIntervalId(id);
         setIsPlaying(true);
