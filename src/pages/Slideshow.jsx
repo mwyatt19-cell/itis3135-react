@@ -81,12 +81,12 @@ export default function Slideshow() {
                         Image {currentIndex + 1} of {images.length}
                     </p>
                     <div>
-                        <button onClick={goFirst}>First</button>
-                        <button onClick={goPrevious}>Previous</button>
-                        <button onClick={goNext}>Next</button>
-                        <button onClick={goEnd}>End</button>
-                        <button onClick={playSlideshow} disabled={isPlaying}>Play</button>
-                        <button onClick={stopSlideshow} disabled={!isPlaying}>Stop</button>
+                        <button className="btn" onClick={goFirst}>First</button>
+                        <button className="btn" onClick={goPrevious}>Previous</button>
+                        <button className="btn" onClick={goNext}>Next</button>
+                        <button className="btn" onClick={goEnd}>End</button>
+                        <button className="btn" onClick={playSlideshow} disabled={isPlaying}>Play</button>
+                        <button className="btn " onClick={stopSlideshow} disabled={!isPlaying}>Stop</button>
 
                     </div>
                 </>
